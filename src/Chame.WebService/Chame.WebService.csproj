@@ -26,6 +26,7 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -130,11 +131,11 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\ChameHistoryOfToday\dev\ChameHOT.WebService.Library\ChameHOT.WebService.Library.csproj">
+    <ProjectReference Include="..\..\..\ChameHistoryOfToday\src\ChameHOT.WebService.Library\ChameHOT.WebService.Library.csproj">
       <Project>{ddef6e96-1ae4-487d-98c7-465c7764296f}</Project>
       <Name>ChameHOT.WebService.Library</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\ChameWeather\dev\ChameWeather.WebService.Library\ChameWeather.WebService.Library.csproj">
+    <ProjectReference Include="..\..\..\ChameWeather\src\ChameWeather.WebService.Library\ChameWeather.WebService.Library.csproj">
       <Project>{9c1cf0a0-9152-4422-af4f-b4612d28f7c4}</Project>
       <Name>ChameWeather.WebService.Library</Name>
     </ProjectReference>
