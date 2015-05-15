@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chame.WebService", "Chame.WebService\Chame.WebService.csproj", "{80131BC3-2A9A-4B9D-813E-BAD22BCB4441}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chame.WebService.Helper", "Chame.WebService.Helper\Chame.WebService.Helper.csproj", "{C5AFA1EC-54E4-4ADC-80BB-65EE055CDAF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4AC5E8C7-D5AC-40FB-A4A5-D4FF3BC4E355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChameHOT.WebService.Library", "..\..\ChameHistoryOfToday\dev\ChameHOT.WebService.Library\ChameHOT.WebService.Library.csproj", "{DDEF6E96-1AE4-487D-98C7-465C7764296F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{70DA2E7F-3817-4BCB-AF87-3293D3786FA8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChameWeather.WebService.Library", "..\..\ChameWeather\dev\ChameWeather.WebService.Library\ChameWeather.WebService.Library.csproj", "{9C1CF0A0-9152-4422-AF4F-B4612D28F7C4}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://jarrey.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = Chame.WebService\\Chame.WebService.csproj
+		SccProjectName0 = Chame.WebService
+		SccAuxPath0 = https://jarrey.visualstudio.com/defaultcollection
+		SccLocalPath0 = Chame.WebService
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = Chame.WebService.Helper\\Chame.WebService.Helper.csproj
+		SccProjectName1 = Chame.WebService.Helper
+		SccAuxPath1 = https://jarrey.visualstudio.com/defaultcollection
+		SccLocalPath1 = Chame.WebService.Helper
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = ..\\..\\ChameHistoryOfToday\\dev\\ChameHOT.WebService.Library\\ChameHOT.WebService.Library.csproj
+		SccProjectTopLevelParentUniqueName2 = ChameWebService.sln
+		SccProjectName2 = ../../ChameHistoryOfToday/dev/ChameHOT.WebService.Library
+		SccAuxPath2 = https://jarrey.visualstudio.com/defaultcollection
+		SccLocalPath2 = ..\\..\\ChameHistoryOfToday\\dev\\ChameHOT.WebService.Library
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = ..\\..\\ChameWeather\\dev\\ChameWeather.WebService.Library\\ChameWeather.WebService.Library.csproj
+		SccProjectTopLevelParentUniqueName3 = ChameWebService.sln
+		SccProjectName3 = ../../ChameWeather/dev/ChameWeather.WebService.Library
+		SccAuxPath3 = https://jarrey.visualstudio.com/defaultcollection
+		SccLocalPath3 = ..\\..\\ChameWeather\\dev\\ChameWeather.WebService.Library
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80131BC3-2A9A-4B9D-813E-BAD22BCB4441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80131BC3-2A9A-4B9D-813E-BAD22BCB4441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80131BC3-2A9A-4B9D-813E-BAD22BCB4441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80131BC3-2A9A-4B9D-813E-BAD22BCB4441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5AFA1EC-54E4-4ADC-80BB-65EE055CDAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5AFA1EC-54E4-4ADC-80BB-65EE055CDAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5AFA1EC-54E4-4ADC-80BB-65EE055CDAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5AFA1EC-54E4-4ADC-80BB-65EE055CDAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDEF6E96-1AE4-487D-98C7-465C7764296F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDEF6E96-1AE4-487D-98C7-465C7764296F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDEF6E96-1AE4-487D-98C7-465C7764296F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDEF6E96-1AE4-487D-98C7-465C7764296F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1CF0A0-9152-4422-AF4F-B4612D28F7C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1CF0A0-9152-4422-AF4F-B4612D28F7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1CF0A0-9152-4422-AF4F-B4612D28F7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1CF0A0-9152-4422-AF4F-B4612D28F7C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDEF6E96-1AE4-487D-98C7-465C7764296F} = {4AC5E8C7-D5AC-40FB-A4A5-D4FF3BC4E355}
+		{9C1CF0A0-9152-4422-AF4F-B4612D28F7C4} = {4AC5E8C7-D5AC-40FB-A4A5-D4FF3BC4E355}
+	EndGlobalSection
+EndGlobal
